@@ -1,6 +1,6 @@
 # Definir el area de edicion de la imagen
-def glViewPort(self, x, y, width, height):
-    self.x = x
-    self.y = y
-    self.width = width -1
-    self.height = height -1
+def glViewPort(x, y, width, height):
+    x = x
+    y = y
+    width = width -1
+    height = height -1

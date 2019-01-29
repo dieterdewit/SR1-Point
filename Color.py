@@ -1,6 +1,11 @@
 # Cambia el color para glVertex
-def color(r, g, b):
-    self.r = r * 255
-    self.g = g * 255
-    self.b = b * 255
-	return bytes ([r, g, b])
+def glColor(r, g, b):
+    r = r * 255
+    g = g * 255
+    b = b * 255
+    color = bytes ([r, g, b])
+    #print(color, end=' ')
+    return color
+
+
+
